@@ -1,0 +1,41 @@
+// LoginPage.scss
+
+.loginpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89vh; 
+   
+    flex-direction: column;
+  
+    h2 {
+      text-align: center;
+    }
+  
+    form {
+      width: 300px; // Adjust the form width as needed
+      margin-top: 10px; // Adjust the top margin as needed
+  
+      label {
+        display: block;
+        margin-bottom: 10px;
+  
+        input {
+          width: 100%;
+          padding: 8px;
+          margin-top: 4px;
+        }
+      }
+  
+      button {
+        width: 100%;
+        margin-left: 10px;
+        padding: 10px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  

@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+  
+  }
+  
+    header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between; 
+     a{
+      color: white;
+      text-decoration: none;
+      padding: 50px;
+  
+     }
+     h1{
+      position: absolute;
+      top: 0;
+      left: 50px;
+     }
+  
+     nav{
+      padding: 40px;
+      margin-right: 50px;
+     }
+   
+    } 
+  
+    .post{
+      width: 100%;
+      height: 500px;
+      background-color: rgb(58, 54, 54);
+      display: flex;
+      gap:10px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+     
+  
+      .imgContainer{
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        position: relative;
+        right: 100px;
+       
+      }
+  
+      .contentContainer{
+        width: 500px;
+        height: 500px;
+        color: black;
+  
+  
+      }
+    }
